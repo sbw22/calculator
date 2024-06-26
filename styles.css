@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#container {
+    border: solid black 2px;
+    border-radius: 10px;
+}
+
+#display {
+    border: solid red 2px;
+    border-radius: 10px;
+    height: 40px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    border: solid green 2px;
+    border-radius: 10px;
+}
+
+button{
+    flex: 1;
+    padding: 10px;
+}
